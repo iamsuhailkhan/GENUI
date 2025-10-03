@@ -74,7 +74,7 @@ const Home = () => {
 
   // It’s insecure to put API key in client code — better to proxy via your backend.
   const ai = new GoogleGenAI({
-  apiKey: "AIzaSyDcrSsiD5ZwDZ4NhKAJR8OPthkEIoLXhBM",  
+  apiKey: "Add your API Key Here",  
 });
 
 
