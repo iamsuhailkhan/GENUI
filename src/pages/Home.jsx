@@ -145,7 +145,7 @@ Requirements:
   return (
     <div className="flex flex-col min-h-screen bg-[#0f0f0f] text-white">
       <Navbar />
-      <div className="flex flex-col h-[60vh] sm:h-[100vh] sm:flex-row flex-1 px-4 py-6 md:px-20 gap-6">
+      <div className="flex flex-col h-[60vh] sm:h-[80vh] sm:flex-row flex-1 px-4 py-6 md:px-20 gap-6">
         {/* Left panel: prompt + controls */}
         <div className="w-full sm:w-1/2 bg-[#1a1a1a] rounded-lg p-4 flex flex-col">
           <h2 className="text-2xl font-semibold mb-2">AI Component Generator</h2>
@@ -191,7 +191,7 @@ Requirements:
         </div>
 
         {/* Right panel: output / preview */}
-        <div className="w-full h-[40vh] sm:h-[100vh] sm:w-1/2 bg-[#1a1a1a] rounded-lg flex flex-col">
+        <div className="w-full h-[40vh] sm:h-[82vh] xl:h-[85vh] sm:w-1/2 bg-[#1a1a1a] rounded-lg flex flex-col">
           {!outputScreen ? (
             <div className="flex-1 flex flex-col items-center justify-center">
               <div className="h-20  w-20 rounded-full bg-gradient-to-r from-purple-500 to-purple-700 flex items-center justify-center text-white text-3xl mb-4">
