@@ -191,7 +191,7 @@ Requirements:
         </div>
 
         {/* Right panel: output / preview */}
-        <div className="w-full h-[40vh] sm:h-[100vh] sm:w-1/2 bg-[#1a1a1a] rounded-lg flex flex-col overflow-hidden">
+        <div className="w-full h-[40vh] sm:h-[100vh] sm:w-1/2 bg-[#1a1a1a] rounded-lg flex flex-col">
           {!outputScreen ? (
             <div className="flex-1 flex flex-col items-center justify-center">
               <div className="h-20  w-20 rounded-full bg-gradient-to-r from-purple-500 to-purple-700 flex items-center justify-center text-white text-3xl mb-4">
