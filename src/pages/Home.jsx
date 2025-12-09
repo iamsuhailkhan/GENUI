@@ -53,7 +53,6 @@ const customStyles = {
 
 const Home = () => {
   const options = [
-    { value: "", label: "Choose your language and framework", isDisabled: true }, // Placeholder option
     { value: "html-css", label: "HTML + CSS" },
     { value: "html-tailwind", label: "HTML + Tailwind CSS" },
     { value: "html-bootstrap", label: "HTML + Bootstrap" },
@@ -75,7 +74,7 @@ const Home = () => {
 
   // It’s insecure to put API key in client code — better to proxy via your backend.
   const ai = new GoogleGenAI({
-  apiKey: "AIzaSyDcrSsiD5ZwDZ4NhKAJR8OPthkEIoLXhBM",  
+  apiKey: "AIzaSyC6Ali2m7ncW-jv3Jzr92fQAbcPFWs5pNE",  
 });
 
 
